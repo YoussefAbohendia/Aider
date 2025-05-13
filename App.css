@@ -1,0 +1,32 @@
+.component-app {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+}
+
+.component-app.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode-toggle {
+  background: none;
+  color: inherit;
+  border: 1px solid #999;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.component-history {
+  padding: 1rem;
+  background: #f0f0f0;
+  border-top: 1px solid #ccc;
+  margin-top: 1rem;
+}
+
+.component-app.dark-mode .component-history {
+  background: #222;
+  color: #fff;
+  border-top: 1px solid #444;
+}
